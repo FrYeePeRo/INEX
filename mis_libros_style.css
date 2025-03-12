@@ -74,24 +74,24 @@ hr{
 
 @media (max-width: 900px) {
     .caja {
-        width: 95%; /* Asegura que el contenedor general se ajuste */
+        width: 95%;
         max-width: 100%;
         padding: 10px;
         box-sizing: border-box;
     }
 
     .libro1 {
-        width: 90%; /* Limita el ancho dentro de caja */
+        width: 90%; 
         max-width: 100%;
         padding: 10px;
         box-sizing: border-box;
     }
 
     .descrip {
-        width: 90%; /* Se ajusta al 90% del contenedor padre */
+        width: 90%; 
         max-width: 100%;
         box-sizing: border-box;
-        overflow-wrap: break-word; /* Evita que el texto haga desbordamiento */
+        overflow-wrap: break-word; 
         white-space: normal;
     }
 }
