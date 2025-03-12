@@ -71,3 +71,27 @@ hr{
     box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.2);
     border: 1px solid rgb(255, 152, 35);
 }
+
+@media (max-width: 900px) {
+    .caja {
+        width: 95%; /* Asegura que el contenedor general se ajuste */
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .libro1 {
+        width: 90%; /* Limita el ancho dentro de caja */
+        max-width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .descrip {
+        width: 90%; /* Se ajusta al 90% del contenedor padre */
+        max-width: 100%;
+        box-sizing: border-box;
+        overflow-wrap: break-word; /* Evita que el texto haga desbordamiento */
+        white-space: normal;
+    }
+}
